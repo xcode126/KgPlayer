@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">KgPlayer</string>
+
+    <string name="main_bottom_tab01_string">第一個Tab</string>
+    <string name="main_bottom_tab02_string">第二個Tab</string>
+    <string name="main_bottom_tab03_string">第三個Tab</string>
+    <string name="main_bottom_tab04_string">第四個Tab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

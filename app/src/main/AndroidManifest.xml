@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SuperActivity"></activity>
+        <activity android:name=".ComSuperActivity"></activity>
     </application>
 
 </manifest>

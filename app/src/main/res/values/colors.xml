@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--bottom_tab_bar_color-->
+    <color name="bottom_text_checked_color">#3097FD</color>
+    <color name="bottom_text_unchecked_color">#363636</color>
 </resources>

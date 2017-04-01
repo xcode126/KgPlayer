@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--項目底部尺寸設置-->
+    <dimen name="main_bottom_text_size">10sp</dimen>
+    <dimen name="main_tab_drawable_padding">3dp</dimen>
+</resources>

@@ -12,7 +12,7 @@ import com.xcode126.kgplayer.util.LogUtils;
 /**
  * 启动页
  */
-public class SplashActivity extends SuperActivity {
+public class SplashActivity extends ComSuperActivity {
     private Handler handler = new Handler();
     private boolean isStartMain = false;
 

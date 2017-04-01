@@ -5,4 +5,15 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="bottom_tag_style" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:drawablePadding">@dimen/main_tab_drawable_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/main_bottom_text_selector</item>
+        <item name="android:textSize">@dimen/main_bottom_text_size</item>
+    </style>
+
 </resources>

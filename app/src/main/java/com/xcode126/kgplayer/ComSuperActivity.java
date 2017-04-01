@@ -1,12 +1,13 @@
 package com.xcode126.kgplayer;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
-public class SuperActivity extends Activity {
+public class ComSuperActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //doSomething
     }
 }
