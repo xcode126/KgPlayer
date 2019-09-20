@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--autolayout-->
+    <declare-styleable name="AutoLayout_Layout">
+        <attr name="layout_auto_basewidth">
+            <flag name="width" value="1"></flag>
+            <flag name="height" value="2"></flag>
+            <flag name="textSize" value="4"></flag>
+            <flag name="padding" value="8"></flag>
+            <flag name="margin" value="16"></flag>
+            <flag name="marginLeft" value="32"></flag>
+            <flag name="marginTop" value="64"></flag>
+            <flag name="marginRight" value="128"></flag>
+            <flag name="marginBottom" value="256"></flag>
+            <flag name="paddingLeft" value="512"></flag>
+            <flag name="paddingTop" value="1024"></flag>
+            <flag name="paddingRight" value="2048"></flag>
+            <flag name="paddingBottom" value="4096"></flag>
+        </attr>
+
+        <attr name="layout_auto_baseheight">
+            <flag name="width" value="1"></flag>
+            <flag name="height" value="2"></flag>
+            <flag name="textSize" value="4"></flag>
+            <flag name="padding" value="8"></flag>
+            <flag name="margin" value="16"></flag>
+            <flag name="marginLeft" value="32"></flag>
+            <flag name="marginTop" value="64"></flag>
+            <flag name="marginRight" value="128"></flag>
+            <flag name="marginBottom" value="256"></flag>
+            <flag name="paddingLeft" value="512"></flag>
+            <flag name="paddingTop" value="1024"></flag>
+            <flag name="paddingRight" value="2048"></flag>
+            <flag name="paddingBottom" value="4096"></flag>
+            <flag name="minWidth" value="8192"></flag>
+            <flag name="maxWidth" value="16384"></flag>
+            <flag name="minHeight" value="32768"></flag>
+            <flag name="maxHeight" value="65536"></flag>
+        </attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="MetroLayout">
+        <attr name="metro_divider" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="AutoTabLayout">
+        <attr name="auto_textSize_base_width" format="boolean"></attr>
+    </declare-styleable>
+
+    <!--swipeback-->
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+
+
+    <declare-styleable name="LazyViewPager">
+        <attr name="init_lazy_item_offset" format="float" />
+        <attr name="init_lazy_scrollable" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="NestedRefreshLayout">
+        <attr name="pullView" format="integer" />
+        <attr name="pullViewHeight" format="dimension|reference" />
+        <attr name="pullMinViewHeight" format="dimension|reference" />
+        <attr name="pullMaxHeight" format="dimension|reference" />
+        <attr name="refreshHeight" format="dimension|reference" />
+        <attr name="animPlayDuration" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="StarBar">
+        <!--星星间距-->
+        <attr name="starDistance" format="dimension" />
+        <!--星星大小-->
+        <attr name="starSize" format="dimension" />
+        <!--星星个数-->
+        <attr name="starCount" format="integer" />
+        <!--星星空图-->
+        <attr name="starEmpty" format="reference" />
+        <!--星星满图-->
+        <attr name="starFill" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="hpb_padding" format="dimension" />
+        <attr name="hpb_bg_color" format="color|reference" />
+        <attr name="hpb_pb_color" format="color|reference" />
+        <attr name="hpb_second_pb_color" format="color|reference" />
+        <attr name="hpb_max" format="integer" />
+        <attr name="hpb_progress" format="integer" />
+        <attr name="hpb_show_second_progress" format="boolean" />
+        <attr name="hpb_second_progress" format="integer" />
+        <attr name="hpb_show_second_point_shape" format="enum">
+            <enum name="point" value="0"/>
+            <enum name="line" value="1"/>
+        </attr>
+        <attr name="hpb_open_gradient" format="boolean" />
+        <attr name="hpb_gradient_from" format="color|reference" />
+        <attr name="hpb_gradient_to" format="color|reference" />
+        <attr name="hpb_open_second_gradient" format="boolean" />
+        <attr name="hpb_second_gradient_from" format="color|reference" />
+        <attr name="hpb_second_gradient_to" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -6,4 +6,26 @@
     <!--項目底部尺寸設置-->
     <dimen name="main_bottom_text_size">10sp</dimen>
     <dimen name="main_tab_drawable_padding">3dp</dimen>
+
+    <dimen name="size_10">10px</dimen>
+    <dimen name="size_12">12px</dimen>
+    <dimen name="size_14">14px</dimen>
+    <dimen name="size_16">16px</dimen>
+    <dimen name="size_18">18px</dimen>
+    <dimen name="size_20">20px</dimen>
+    <dimen name="size_22">22px</dimen>
+    <dimen name="size_24">24px</dimen>
+    <dimen name="size_26">26px</dimen>
+    <dimen name="size_28">28px</dimen>
+    <dimen name="size_30">30px</dimen>
+    <dimen name="size_32">32px</dimen>
+    <dimen name="size_34">34px</dimen>
+    <dimen name="size_36">36px</dimen>
+    <dimen name="size_38">38px</dimen>
+    <dimen name="size_40">40px</dimen>
+    <dimen name="size_48">48px</dimen>
+    <dimen name="size_50">50px</dimen>
+    <dimen name="size_52">52px</dimen>
+
+    <dimen name="default_title_height">98px</dimen>
 </resources>

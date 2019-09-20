@@ -7,4 +7,15 @@
     <!--bottom_tab_bar_color-->
     <color name="bottom_text_checked_color">#3097FD</color>
     <color name="bottom_text_unchecked_color">#363636</color>
+
+    <color name="colorDivider">#EEEEEE</color>
+    <color name="colorFore">#FFFFFF</color><!--前景色-->
+    <color name="colorBack">#F5F5F5</color><!--后景色-->
+    <color name="colorRed">#F02B2B</color>
+
+    <!--字体颜色-->
+    <color name="textSuper">#000000</color>
+    <color name="textMain">#333333</color>
+    <color name="textMinor">#666666</color>
+    <color name="textLesser">#999999</color>
 </resources>

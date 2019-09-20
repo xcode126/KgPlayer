@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KgPlayer.iml" filepath="$PROJECT_DIR$/KgPlayer.iml" />
+      <module fileurl="file://D:\header\KgPlayer\KgPlayer.iml" filepath="D:\header\KgPlayer\KgPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\header\KgPlayer\app\app.iml" filepath="D:\header\KgPlayer\app\app.iml" />
     </modules>
   </component>
 </project>

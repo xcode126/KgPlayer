@@ -4,51 +4,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--标题栏-->
-    <!--<include layout="@layout/titlebar" />-->
-
-    <!--FrameLayout-->
-
-    <FrameLayout
-        android:id="@+id/main_frame_layout"
+    <com.xcode126.kgplayer.base.widget.ScrollableViewPager
+        android:id="@+id/mViewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <!--底部的RadioGroup-->
-    <RadioGroup
-        android:id="@+id/main_rg"
+    <com.xcode126.kgplayer.base.widget.CompatMagicIndicator
+        android:id="@+id/indicator"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#11000000"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="5dp">
-
-        <RadioButton
-            android:id="@+id/main_rb1"
-            style="@style/bottom_tag_style"
-            android:drawableTop="@drawable/main_bottom_rb01_selector"
-            android:text="@string/main_bottom_tab01_string" />
-
-        <RadioButton
-            android:id="@+id/main_rb2"
-            style="@style/bottom_tag_style"
-            android:drawableTop="@drawable/main_bottom_rb02_selector"
-            android:text="@string/main_bottom_tab02_string" />
-
-        <RadioButton
-            android:id="@+id/main_rb3"
-            style="@style/bottom_tag_style"
-            android:drawableTop="@drawable/main_bottom_rb03_selector"
-            android:text="@string/main_bottom_tab03_string" />
-
-        <RadioButton
-            android:id="@+id/main_rb4"
-            style="@style/bottom_tag_style"
-            android:drawableTop="@drawable/main_bottom_rb04_selector"
-            android:text="@string/main_bottom_tab04_string" />
-
-    </RadioGroup>
+        android:layout_height="110px"
+        android:background="@color/colorFore" />
 
 </LinearLayout>
