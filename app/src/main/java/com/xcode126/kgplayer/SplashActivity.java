@@ -36,11 +36,9 @@ public class SplashActivity extends WrapperActivity {
 
     @Override
     protected void loadData(Bundle savedInstanceState, Intent intent) {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(MainActivity.getIntent(mActivity));
-            }
+        new Handler().postDelayed(() -> {
+            startActivity(MainActivity.getIntent(mActivity));
+            finish();
         }, 3000);
     }
 

@@ -1,7 +1,6 @@
 package com.xcode126.kgplayer.me;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 
 import com.xcode126.kgplayer.R;
 import com.xcode126.kgplayer.base.WrapperFragment;
@@ -27,7 +26,7 @@ public class MeFragment extends WrapperFragment {
 
     @Override
     public int getViewLayout() {
-        return R.layout.fragment_home;
+        return R.layout.fragment_me;
     }
 
     @Override
@@ -38,12 +37,4 @@ public class MeFragment extends WrapperFragment {
     protected void loadData(Bundle savedInstanceState) {
 
     }
-
-
-
-    @Override
-    public void onLazyInitView(@Nullable Bundle savedInstanceState) {
-        super.onLazyInitView(savedInstanceState);
-    }
-
 }

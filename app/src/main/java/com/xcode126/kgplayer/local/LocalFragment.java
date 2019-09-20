@@ -11,6 +11,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.xcode126.kgplayer.R;
+import com.xcode126.kgplayer.VideoPlayerActivity;
 import com.xcode126.kgplayer.base.WrapperFragment;
 import com.xcode126.kgplayer.local.adapter.LocalAdapter;
 import com.xcode126.kgplayer.local.model.MediaItem;
@@ -61,7 +62,8 @@ public class LocalFragment extends WrapperFragment {
         localAdapter = new LocalAdapter();
         mRecyclerView.setAdapter(localAdapter);
         localAdapter.setOnItemClickListener((adapter, view, position) -> {
-
+            MediaItem item = localAdapter.getItem(position);
+            startActivity(VideoPlayerActivity.getIntent(_mActivity, item.getName(), item.getData()));
         });
     }
 
@@ -120,4 +122,5 @@ public class LocalFragment extends WrapperFragment {
             mHandler.sendEmptyMessage(0);
         }).start();
     }
+
 }

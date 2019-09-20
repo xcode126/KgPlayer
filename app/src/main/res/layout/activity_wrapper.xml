@@ -5,17 +5,12 @@
     android:layout_height="match_parent"
     android:divider="@drawable/shape_divider_line"
     android:orientation="vertical"
-    android:showDividers="middle">
+    android:showDividers="none">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-        <View
-            android:id="@+id/status_bar_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
 
         <com.xcode126.kgplayer.base.widget.TitleView
             android:id="@+id/mTitleView"
